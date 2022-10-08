@@ -1,12 +1,14 @@
 import "./App.css";
+import Useeffect from "./useeffect";
+import UserRef from "./userRef";
+import Usestate from "./usestate";
 
 function App() {
   return (
     <div className="App ">
-      <p className=" sm:text-sm md:text-2xl lg:text-5xl ">armaan</p>
-      <div className="shadow-xl shadow-slate-800 m-4 h-40  sm:w-1/3 md:w-1/2 lg:w-full ">
-        {" "}
-      </div>
+      <Usestate />
+      <Useeffect />
+      <UserRef />
     </div>
   );
 }
